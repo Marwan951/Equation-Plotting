@@ -15,7 +15,7 @@ You can install these dependencies using pip: "pip install matplotlib PySide2"
 # How to use 
 1. Clone the repository to your local machine.
 2. Make sure you have the required dependencies installed as mentioned.
-3. Run the Line_Plotting.py script to launch the application.
+3. Run the Equation_Plotting.py script to launch the application.
 4. Enter a mathematical function in terms of x using valid characters (numbers, operators, parentheses) into the input field.
 5. Enter the minimum and maximum values for the x-axis range.
 6. Click the "Plot the line" button to visualize the graph.
@@ -29,7 +29,6 @@ You can install these dependencies using pip: "pip install matplotlib PySide2"
 import sys
 from Equation_Plotting import FunctionPlotter
 from PySide2.QtWidgets import QApplication
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     plotter = FunctionPlotter()
@@ -46,4 +45,3 @@ if __name__ == '__main__':
 
 # Contributors
 Marwan Salah (@Marwan951)
- 
