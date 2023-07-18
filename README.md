@@ -34,7 +34,24 @@ if __name__ == '__main__':
     plotter = FunctionPlotter()
     plotter.show()
     sys.exit(app.exec_())
-  
+
+# Right and Wrong examples 
+1. Right Example:
+   Function = '2*x^2 + 3*x + 4'
+   Minimum value for x = -10
+   Maximum value for x = 10
+   
+2. Wrong Example.1:
+   Function = '2*x^2 3*x + 4'
+   Minimum value for x = -5
+   Maximum value for x =  5
+
+3. Wrong Example.2:
+   Function = 'x'
+   Minimum value for x = 5
+   Maximum value for x = w
+
+   
 # Testing the application (Optional)
 -If you want to run the test cases, ensure that you have the pytest library installed: 
  "pip install pytest"
